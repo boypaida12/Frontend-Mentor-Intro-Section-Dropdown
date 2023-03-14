@@ -23,10 +23,10 @@ featuresLink.addEventListener('mouseover', toggleArrow);
 featuresLink.addEventListener('focus', toggleArrow);
   
 function toggleArrow() {
-    featuresArrowDown.src = '/images/icon-arrow-up.svg';
+    featuresArrowDown.src = 'images/icon-arrow-up.svg';
     featuresContainer.style.display = 'block';
     companyContainer.style.display = 'none';
-    companyArrowDown.src = '/images/icon-arrow-down.svg';
+    companyArrowDown.src = 'images/icon-arrow-down.svg';
 }
 
 featuresContainer.addEventListener('mouseleave', leaveLink);
