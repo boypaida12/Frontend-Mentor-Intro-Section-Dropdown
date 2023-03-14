@@ -33,7 +33,7 @@ featuresContainer.addEventListener('mouseleave', leaveLink);
 featuresContainer.addEventListener('blur', leaveLink);
 
 function leaveLink() {
-    featuresArrowDown.src = '/images/icon-arrow-down.svg';
+    featuresArrowDown.src = 'images/icon-arrow-down.svg';
     featuresContainer.style.display = 'none';
 }
 
@@ -42,8 +42,8 @@ companyLink.addEventListener('mouseover', toggleCompanyArrow);
 companyLink.addEventListener('focus', toggleCompanyArrow);
   
 function toggleCompanyArrow() {
-    companyArrowDown.src = '/images/icon-arrow-up.svg';
-    featuresArrowDown.src = '/images/icon-arrow-down.svg';
+    companyArrowDown.src = 'images/icon-arrow-up.svg';
+    featuresArrowDown.src = 'images/icon-arrow-down.svg';
     featuresContainer.style.display = 'none';
     companyContainer.style.display = 'block';
 }
@@ -52,22 +52,22 @@ companyContainer.addEventListener('mouseleave', leaveCompanyLink);
 companyContainer.addEventListener('blur', leaveCompanyLink);
 
 function leaveCompanyLink() {
-    companyArrowDown.src = '/images/icon-arrow-down.svg';
+    companyArrowDown.src = 'images/icon-arrow-down.svg';
     companyContainer.style.display = 'none';
 }
 
 header.onmouseleave = function(){
     featuresContainer.style.display='none';
     companyContainer.style.display = 'none';
-    featuresArrowDown.src = '/images/icon-arrow-down.svg';
-    companyArrowDown.src = '/images/icon-arrow-down.svg';
+    featuresArrowDown.src = 'images/icon-arrow-down.svg';
+    companyArrowDown.src = 'images/icon-arrow-down.svg';
 }
 
 leftLink.onmouseover = function() {
     featuresContainer.style.display='none';
     companyContainer.style.display = 'none';
-    featuresArrowDown.src = '/images/icon-arrow-down.svg';
-    companyArrowDown.src = '/images/icon-arrow-down.svg';
+    featuresArrowDown.src = 'images/icon-arrow-down.svg';
+    companyArrowDown.src = 'images/icon-arrow-down.svg';
 }
 
 menuOpen.onclick = function() {
@@ -81,11 +81,11 @@ menuClose.onclick = function() {
 mobileFeaturesLink.onclick = function() {
     if (!isDisplayed) {
       mobileFeaturesContainer.style.display = 'block';
-      mobileFeaturesArrowDown.src = '/images/icon-arrow-up.svg';
+      mobileFeaturesArrowDown.src = 'images/icon-arrow-up.svg';
       isDisplayed = true;
     } else {
       mobileFeaturesContainer.style.display = 'none';
-      mobileFeaturesArrowDown.src = '/images/icon-arrow-down.svg';
+      mobileFeaturesArrowDown.src = 'images/icon-arrow-down.svg';
       isDisplayed = false;
     }
 }
@@ -93,11 +93,11 @@ mobileFeaturesLink.onclick = function() {
 mobileCompanyLink.onclick = function() {
     if (!isDisplayed) {
       mobileCompanyContainer.style.display = 'block';
-      mobileCompanyArrowDown.src = '/images/icon-arrow-up.svg';
+      mobileCompanyArrowDown.src = 'images/icon-arrow-up.svg';
       isDisplayed = true;
     } else {
       mobileCompanyContainer.style.display = 'none';
-      mobileCompanyArrowDown.src = '/images/icon-arrow-down.svg';
+      mobileCompanyArrowDown.src = 'images/icon-arrow-down.svg';
       isDisplayed = false;
     }
   }
