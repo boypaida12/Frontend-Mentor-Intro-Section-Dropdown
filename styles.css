@@ -287,8 +287,20 @@ button {
         color: var(--color-white);
     }
 
-    .logo-nav_links, .buttons, .features-container, .company-container, .menu-open{
+    .logo, .menu-open, .arrow{
         filter: invert(100%);
+    }
+
+    .desktop-nav a, button, .text-hero p, .features-dropdown a, .company-dropdown a, header button:hover  {
+        color: var(--color-white);
+    }
+
+    .mobile-buttons button {
+        color: initial;
+    }
+
+    .transparent a {
+        color: var(--color-grey);
     }
 
     .btn-learn-more:hover,
